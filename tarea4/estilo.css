@@ -1,0 +1,103 @@
+body{
+    background: linear-gradient(lightblue, darkblue);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-image: linear-gradient(lightblue, darkseagreen);
+    width: 70%;
+    border-radius: 3%;
+    height: 460px;
+    margin-top: 5%;
+}
+section{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100%;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+h1, h2{
+    color: white;
+}
+.left-side h1:first-letter{
+    color: darkred;
+}
+.right-side h2:first-letter{
+    color: red;
+}
+.left-side img{
+    width: 100%;
+}
+.left-side a{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+    color: white;
+    background-color: dodgerblue;
+    line-height: 35px;
+    margin-bottom: 10px;
+}.right-side{
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 25% 2% 2% 25%;
+ }
+ .right-side h2{
+     text-align: center;
+ }
+.right-side .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.right-side .forms{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.forms label{
+    color: white;
+}
+.forms select{
+    width: 200px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+}
+.forms input{
+    width: 200px;
+    height: 35px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+.forms a{
+    width: 100px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+    border-radius: 100px;
+    background-color: limegreen;
+}
+.forms textarea{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.first-button{
+    background-color: dodgerblue;
+}
